@@ -1,2 +1,3 @@
-# DO NOT EDIT: automatically generated WORKSPACE file for cc_autoconf rule
-workspace(name = "local_config_cc")
+version https://git-lfs.github.com/spec/v1
+oid sha256:3dbd3eb483d36e6bccbfdfacdef5589cc4cb8ffa0dbec384855125ebb5f084ab
+size 111

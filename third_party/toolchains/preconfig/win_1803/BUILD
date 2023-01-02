@@ -1,34 +1,3 @@
-licenses(["restricted"])
-
-package(default_visibility = ["//visibility:public"])
-
-java_runtime(
-    name = "windows_jdk8",
-    srcs = [],
-    java_home = "C:/openjdk",
-)
-
-platform(
-    name = "rbe_windows_1803_gpu",
-    constraint_values = [
-        "@bazel_tools//platforms:x86_64",
-        "@bazel_tools//platforms:windows",
-    ],
-    remote_execution_properties = """
-        properties:{
-          name: "container-image"
-          value: ""
-        }
-        properties:{
-          name: "sandbox"
-          value: "none"
-        }
-        properties:{
-          name: "OSFamily"
-          value: "Windows"
-        }
-        properties:{
-          name: "Pool" value: "default"
-        }
-        """,
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e9d661114762704c713206c4db87b35c0e5da4365272d69ec8691f2a4ada0cb
+size 708

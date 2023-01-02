@@ -1,18 +1,3 @@
-package(default_visibility = ["//visibility:public"])
-
-licenses(["notice"])  # Apache 2.0
-
-filegroup(
-    name = "model_files",
-    srcs = glob(
-        [
-            "**/*",
-        ],
-        exclude = [
-            "**/BUILD",
-            "**/WORKSPACE",
-            "**/LICENSE",
-            "**/*.zip",
-        ],
-    ),
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:3351fc69a12ba629ecc0f1d7192205e8252b13af077f2940b89b8206659f7a9b
+size 328

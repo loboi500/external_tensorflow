@@ -1,5 +1,3 @@
-# Default owners are top 3 active developers of the past 1 or 2 years
-# or people with more than 10 commits last year.
-# Please update this list if you find better owner candidates.
-miaowang@google.com
-kuantung@google.com
+version https://git-lfs.github.com/spec/v1
+oid sha256:3216ead8438157b5a6c29613a83fe894962e85bf8ae5409fe1589ab40b86bb93
+size 222

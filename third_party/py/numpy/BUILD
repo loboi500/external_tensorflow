@@ -1,21 +1,3 @@
-licenses(["restricted"])
-
-package(default_visibility = ["//visibility:public"])
-
-py_library(
-    name = "numpy",
-    srcs = ["tf_numpy_dummy.py"],
-    srcs_version = "PY3",
-)
-
-alias(
-    name = "headers",
-    actual = "@local_config_python//:numpy_headers",
-)
-
-genrule(
-    name = "dummy",
-    outs = ["tf_numpy_dummy.py"],
-    cmd = "touch $@",
-    visibility = ["//visibility:private"],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:46a4e56955ff525a7ec42bb2fe76e43bb8e5611ddf187f7093f1678f4b749f96
+size 391

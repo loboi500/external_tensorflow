@@ -1,10 +1,3 @@
-# ARM GCC toolchains
-
-This repository contains Bazel C++ toolchain configurations for ARM GCC.
-The following toolchains are configured:
-
-source: https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-a/downloads
-- gcc 8.3
-- glibc 2.28
-
-target cpu: aarch64, armhf
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a3f61cad33640c1945db8c2da70b49cb28998de7901d58f04e98914c1bff988
+size 308

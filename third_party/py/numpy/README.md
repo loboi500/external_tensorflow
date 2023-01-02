@@ -1,4 +1,3 @@
-# numpy_ops
-
-The folder tf_numpy_api/ contains lists of NumPy API symbols that the
-`numpy_ops` internal module in TensorFlow implements.
+version https://git-lfs.github.com/spec/v1
+oid sha256:dff337b0b56c0c69236ed92748cb339f2720d7c4a634a44c00dbef2108a0d81e
+size 137

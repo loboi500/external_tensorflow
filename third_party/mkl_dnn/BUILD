@@ -1,34 +1,3 @@
-load("@bazel_skylib//:bzl_library.bzl", "bzl_library")
-
-package(
-    default_visibility = [
-        "//tensorflow:__subpackages__",
-    ],
-    licenses = ["notice"],
-)
-
-exports_files(["LICENSE"])
-
-config_setting(
-    name = "build_with_mkl_opensource",
-    define_values = {
-        "build_with_mkl": "true",
-        "build_with_mkl_opensource": "true",
-    },
-    visibility = ["//visibility:public"],
-)
-
-config_setting(
-    name = "build_with_mkldnn_threadpool",
-    define_values = {
-        "build_with_mkl": "true",
-        "build_with_mkl_opensource": "true",
-        "build_with_mkldnn_threadpool": "true",
-    },
-    visibility = ["//visibility:public"],
-)
-
-bzl_library(
-    name = "build_defs_bzl",
-    srcs = ["build_defs.bzl"],
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:d016f9f8ed975af5c3ad803cb0b41eade49091d5416e91ba3431416a169fc224
+size 741
